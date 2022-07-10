@@ -3,6 +3,7 @@ import { Trans, useTranslation } from "react-i18next";
 import SimpleForm from "./Components/SimpleForm";
 import { useState } from "react";
 import i18n from "./i18n";
+import { DateFormatter } from "./Components/DateFormatter";
 
 function App() {
   const { t } = useTranslation();
@@ -29,6 +30,7 @@ function App() {
       </section>
       <section className="App-Main_Content">
         <h1>{t("Welcome to React")}</h1>
+        {/* <DateFormatter /> */}
         <SimpleForm lang={language} />
       </section>
     </div>
