@@ -1,0 +1,6 @@
+{
+  "emmet.preferences": {
+    "javascript": "javascriptreact"
+  },
+  "editor.formatOnSave": true
+}

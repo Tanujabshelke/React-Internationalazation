@@ -1,0 +1,23 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #aaa;
+  justify-content: center;
+  align-items: center;
+}
+.App-header {
+  display: flex;
+}
+.App-label {
+  align-self: center;
+  margin-right: 2rem;
+}
+.App-Main_Content {
+  padding: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
