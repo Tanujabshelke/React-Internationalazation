@@ -30,7 +30,7 @@ const SimpleForm = ({ lang }) => {
       render={(formRenderProps) => (
         <FormElement
           style={{
-            maxWidth: 550,
+            maxWidth: 550
           }}
         >
           <fieldset className={"k-form-fieldset"}>

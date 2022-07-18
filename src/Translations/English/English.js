@@ -4,5 +4,5 @@ export const English = {
   "first name": "First Name",
   "last name": "Last Name",
   email: "Email",
-  submit: "Submit",
+  submit: "Submit"
 };
