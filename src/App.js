@@ -1,15 +1,17 @@
 import React from "react";
 import "./App.css";
 import { Trans, useTranslation } from "react-i18next";
-import SimpleForm from "./Components/SimpleForm";
 import { useState } from "react";
 import i18n from "./i18n";
+import SimpleForm from "./Components/SimpleForm";
 import { IntlProvider, load } from "@progress/kendo-react-intl";
-// import { IntlProvider, load } from "@progress/kendo-react-intl";
-import { DateFormatter } from "./Components/DateFormatter";
-import { English } from "./Translations/English/English";
-import { French } from "./Translations/French/French";
 
+// import { IntlProvider, load } from "@progress/kendo-react-intl";  //testing purpose
+// import { DateFormatter } from "./Components/DateFormatter";
+// import { English } from "./Translations/English/English";
+// import { French } from "./Translations/French/French";
+// import HocHook from "./Components/HowToUse/HocHook";
+// import TranslationProps from "./Components/TranslationProp";
 // load(English, French);    // for intlProvider
 
 function App() {
@@ -51,6 +53,8 @@ function App() {
             {t("comman:button:delete")}
           </button>
         </section>
+        {/* <HocHook /> */}
+        {/* <TranslationProps /> */}
         {/* <IntlProvider locale={language}>
           <DateFormatter />
         </IntlProvider>
